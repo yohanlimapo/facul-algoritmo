@@ -1,10 +1,10 @@
 # Lógica- Algoritmos e Programação de Computadores 
 ## Aulas
-### Aula 1 - Introdução de Algoritmos e Raciocínio Lógico
-### Aula 2 - Python e ambientes de desenvolvimento
-### Aula 3 - Conceitos básicos de algoritmos em Python
-### Aula 4 - Ambiente Integrado de desenvolvimento em Python
-### Aula 5 - Instalação de Bibliotecas no Python
+Aula 1 - Introdução de Algoritmos e Raciocínio Lógico
+Aula 2 - Python e ambientes de desenvolvimento
+Aula 3 - Conceitos básicos de algoritmos em Python
+Aula 4 - Ambiente Integrado de desenvolvimento em Python
+Aula 5 - Instalação de Bibliotecas no Python
 ### Aula 6 - Tipos de dados e variáveis (utilizando a linguagem Python)
 ### Aula 7 - Comandos de entrada e saída (utilizando a linguagem Python)
 ### Aula 8 - Variáveis, tipos de dados e operadores de algoritmos em Python
