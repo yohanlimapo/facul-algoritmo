@@ -5,7 +5,7 @@ with open ("README.md", "r") as fh:
 setuptools.setup(
     name = "example-pkg-yohanlimapo",
     version = "0.0.1",
-    author = "Example Author",
-    author_email = author@example.com, 
+    author = "Yohan",
+    author_email = yohan@gmail.com, 
     description = "A small example package"
 )
