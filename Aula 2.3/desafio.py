@@ -13,9 +13,9 @@ ascii_code = ord(letter)
 hex_code = hex(ascii_code)
 
 print("Letra digitada foi: " + letter)
-print("Seu valor em decimal é: ", ascii_code)
-print("Seu valor em hexadecimal é: ", hex_code)
-print("Seu valor em binário é: ", bin(ascii_code))
+print("Seu valor em decimal é: ", ord(letter))
+print("Seu valor em hexadecimal é: ", hex(ord(letter)))
+print("Seu valor em binário é: ", bin(ord(letter)))
 
 # Dificuldades encontradas no exercício:
 # Entender o objetivo de fazer o ord(), porque precisei dele para fazer o restante. Confesso que colei para precisar continuar.
