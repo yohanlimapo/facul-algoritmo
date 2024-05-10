@@ -6,6 +6,6 @@ setuptools.setup(
     name = "example-pkg-yohanlimapo",
     version = "0.0.1",
     author = "Yohan",
-    author_email = yohan@gmail.com, 
+    author_email = "yohan@gmail.com", 
     description = "A small example package"
 )
