@@ -21,9 +21,9 @@
 
 # Medir UMIDADE do ar interna e TEMPERATURA externa do forno
 import time
-UMIDADE = int(input("Qual a umidade do ar na parte interna do forno?\t"))
-TEMP_EXT = int(input("Qual a temperatura da parte EXTERNA do forno?\t"))
-TEMP_INT = int(input("Qual a temperatura INTERNA do fogo?\t"))
+UMIDADE = float(input("Qual a umidade do ar na parte interna do forno?\t"))
+TEMP_EXT = float(input("Qual a temperatura da parte EXTERNA do forno?\t"))
+TEMP_INT = float(input("Qual a temperatura INTERNA do fogo?\t"))
 
 clima = input("Estamos no inverno? (S/N)\t")
 if clima == "S" or "s":
@@ -46,7 +46,7 @@ if clima == "S" or "s":
         print("Desumidificação concluída.")
     else:
         print("Acionar aquecimento do forno e exaustor do ar.") #TEMP_INT < 15 and UMIDADE >= 40
-        AQUECIMENTO = int(input("Qual a temperatura desejada?\t"))
+        AQUECIMENTO = float(input("Qual a temperatura desejada?\t"))
         time.sleep(1)
         print("Desumidificação iniciada.")
         time.sleep(15)
